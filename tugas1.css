@@ -1,0 +1,93 @@
+.navbar{
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.navbar li{
+    /* display: flex; */
+    text-emphasis: none;
+    color: black;
+    margin: 10px;
+}
+section{
+    height: 600px;
+    background-color: whitesmoke;
+    margin: 0px 0px 40px 80px;
+    width: 900px;
+    padding: 12px;
+    border-radius: 2%;
+
+     /* -----box shadow------ */
+     box-shadow: -1px 1px 10px 6px rgba(0,0,0,0.75);
+     -webkit-box-shadow: -1px 1px 10px 6px rgba(0,0,0,0.75);
+     -moz-box-shadow: -1px 1px 10px 6px rgba(0,0,0,0.75);
+     /* ------box shadow penutup */
+}
+footer{
+    background-color: mediumspringgreen;
+    color: aqua;
+    text-align: center;
+    padding: 10px;
+     margin: 20px;
+}
+h2{
+    text-align: center;
+    border: 5PX aqua solid;
+    border-style: dashed;
+    margin: 5% 34%;
+}
+H1{
+    text-align: center;
+    border: 5PX aqua solid;
+    border-style: dashed;
+    margin: 0% 45%;
+}
+.gambar{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+.gambar img{
+    height: 250px;
+    width: 250px;
+    border: solid 1px rgb(0, 162, 255);
+    margin: 30px 20px 2px 20px;
+}
+form {
+    display: grid;
+    /* grid-template-columns: 4fr 4fr; */
+    grid-gap: 0px;
+    margin: 40px;
+    width: 90%;
+}
+aside{
+    width: 20%;
+    background-color: whitesmoke;
+    height: 500px;
+    float: right;
+    position: relatives;
+    margin: 0PX 30px;
+    border-radius: 2%;
+
+    box-shadow: -1px 1px 10px 6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 1px 10px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 10px 6px rgba(0,0,0,0.75);
+}
+.bulat{
+    background-image: url(WhatsApp\ Image\ 2023-01-21\ at\ 04.01.56.jpeg);
+    background-size: cover;
+    height: 200px; 
+    width: 200px;
+    border-radius: 50%;
+    margin: 30px;
+}
+.a section:nth-child(1){
+    height: 350px;
+}
